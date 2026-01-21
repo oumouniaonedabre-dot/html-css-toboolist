@@ -9,14 +9,31 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: rgb(128, 128, 128);
+    height: 50px;
 }
 
 main {
-    background-color: gray;
-    padding: 15px 0;
+    background-color: #0f7949;
+    padding: 10px;
 }
 
 .container {
     width: 600px;
+    margin: auto;
+    background-color: rgb(60, 22, 129);
 }
+
+#logo.image {
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px 0;
+}
+\
+#logo.text {
+    width: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
